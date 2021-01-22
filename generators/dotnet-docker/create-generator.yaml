@@ -1,0 +1,13 @@
+name: dotnet-docker
+sourceUrl: github.com/ccheetham/tanzu-accelerator//generators
+commands: |-
+  dotnet-docker new
+version: 0.0.1
+displayName: .NET Docker setup
+description: Creates a Dockerfile to run your .NET application.
+tags:
+  - dotnet
+  - docker
+homeUrl: https://github.com/ccheetham/tanzu-accelerator
+maintainer: ccheetham@vmware.com
+iconUrl: https://raw.githubusercontent.com/simple-starters/icons/master/icon-dotnet.png

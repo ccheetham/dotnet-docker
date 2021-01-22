@@ -1,0 +1,15 @@
+name: dotnet-webapp-5.0
+sourceUrl: github.com/ccheetham/tanzu-accelerator//starters/dotnet-wepapp-5.0
+generatorNames:
+  - dotnet-docker
+  - none
+version: 0.0.1
+displayName: .NET 5.0 webapp
+description: A basic .NET webapp for the net5.0 framework
+tags:
+  - dotnet
+language: csharp
+framework: net5.0
+homeUrl: https://github.com/ccheetham/tanzu-accelerator
+maintainer: ccheetham@vmware.com
+iconUrl: https://raw.githubusercontent.com/simple-starters/icons/master/icon-dotnet.png
