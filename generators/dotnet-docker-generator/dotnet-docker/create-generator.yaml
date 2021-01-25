@@ -1,5 +1,5 @@
 name: dotnet-docker
-sourceUrl: github.com/ccheetham/tanzu-accelerator//generators
+sourceUrl: github.com/ccheetham/tanzu-accelerator/generators//dotnet-docker-generator
 commands: |-
   dotnet-docker new
 version: 0.0.1
