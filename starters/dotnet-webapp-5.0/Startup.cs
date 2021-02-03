@@ -9,7 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace dotnet_wepapp_5._0
+namespace DotNetWebApp50
 {
     public class Startup
     {

@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace dotnet_wepapp_5._0
+namespace DotNetWebApp50
 {
     public class Program
     {

@@ -1,5 +1,5 @@
 name: dotnet-webapp-5.0
-sourceUrl: github.com/ccheetham/tanzu-accelerator//starters/dotnet-wepapp-5.0
+sourceUrl: github.com/ccheetham/tanzu-accelerator//starters/dotnet-webapp-5.0
 generatorNames:
   - dotnet-docker
   - none
