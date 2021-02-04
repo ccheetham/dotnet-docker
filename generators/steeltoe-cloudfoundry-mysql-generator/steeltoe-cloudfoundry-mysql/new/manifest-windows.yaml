@@ -1,0 +1,13 @@
+---
+actions:
+  to: manifest-windows.yaml
+---
+applications:
+- name: {{artifactId}}
+  buildpacks:
+   - hwc_buildpack
+  memory: 384M
+  stack: windows
+  command: .\{{artifactId}}
+  services:
+   - myMySqlService

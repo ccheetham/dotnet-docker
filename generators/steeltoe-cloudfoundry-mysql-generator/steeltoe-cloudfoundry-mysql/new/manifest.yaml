@@ -1,0 +1,12 @@
+---
+actions:
+  to: manifest.yaml
+---
+applications:
+- name: {{artifactId}}
+  buildpacks:
+   - dotnet_core_buildpack
+  memory: 128M
+  command: cd ${HOME} && ./{{artifactId}}
+  services:
+   - myMySqlService
