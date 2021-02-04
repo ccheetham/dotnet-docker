@@ -1,0 +1,9 @@
+applications:
+- name: SteeltoeCloudFoundry
+  buildpacks:
+   - hwc_buildpack
+  memory: 384M
+  stack: windows
+  command: .\SteeltoeCloudFoundry
+  services:
+   - myMySqlService

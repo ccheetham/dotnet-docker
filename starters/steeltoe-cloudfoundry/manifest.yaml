@@ -1,0 +1,8 @@
+applications:
+- name: SteeltoeCloudFoundry
+  buildpacks:
+   - dotnet_core_buildpack
+  memory: 128M
+  command: cd ${HOME} && ./SteeltoeCloudFoundry
+  services:
+   - myMySqlService

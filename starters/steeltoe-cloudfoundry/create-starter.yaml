@@ -1,0 +1,17 @@
+name: steeltoe-cloudfoundry
+sourceUrl: github.com/ccheetham/tanzu-accelerator//starters/steeltoe-cloudfoundry
+generatorNames:
+  - steeltoe-cloudfoundry-mysql
+  - none
+version: 0.0.1
+displayName: Steeltoe CloudFoundry app
+description: A sample app for Steeltoe CloudFoundry
+tags:
+  - dotnet
+  - cloudfoundry
+  - steeltoe
+language: csharp
+framework: netcoreapp3.1
+homeUrl: https://github.com/ccheetham/tanzu-accelerator
+maintainer: ccheetham@vmware.com
+iconUrl: https://raw.githubusercontent.com/simple-starters/icons/master/icon-steeltoe.png

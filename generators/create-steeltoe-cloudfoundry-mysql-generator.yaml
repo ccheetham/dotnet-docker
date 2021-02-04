@@ -1,0 +1,15 @@
+name: dotnet-docker
+sourceUrl: github.com/ccheetham/tanzu-accelerator/generators//steeltoe-cloudfoundry-mysql-generator
+commands: |-
+  steeltoe-cloudfoundry-mysql new
+version: 0.0.1
+displayName: Steeltoe CloudFoundry MySQL manifests
+description: Creates CloudFoundry manifests for Steeltoe MySQL apps
+tags:
+  - cloudfoundry
+  - dotnet
+  - mysql
+  - steeltoe
+homeUrl: https://github.com/ccheetham/tanzu-accelerator
+maintainer: ccheetham@vmware.com
+iconUrl: https://raw.githubusercontent.com/simple-starters/icons/master/icon-steeltoe.png
