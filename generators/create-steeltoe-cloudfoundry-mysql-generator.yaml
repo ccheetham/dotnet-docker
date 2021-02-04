@@ -1,4 +1,4 @@
-name: dotnet-docker
+name: steeltoe-cloudfoundry-mysql
 sourceUrl: github.com/ccheetham/tanzu-accelerator/generators//steeltoe-cloudfoundry-mysql-generator
 commands: |-
   steeltoe-cloudfoundry-mysql new
